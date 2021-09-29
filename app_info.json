@@ -1,0 +1,21 @@
+{
+  "plcnextapp": {
+    "name": "Databroker_DXC_123",
+    "identifier": "00000001111112",
+    "version": "1.2.3.4 alpha",
+    "target": "AXC F 2152",
+    "minfirmware_version": "21.0.0",
+    "manufacturer": "SettleMint"
+  },
+  "datastorage": {
+    "persistentdata": true,
+    "temporarydata": true
+  },
+  "linuxdaemons": [
+    {
+      "path": "databroker.sh",
+      "cmdargs": "",
+      "starttime": "10"
+    }
+  ]
+}
